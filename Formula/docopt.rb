@@ -1,10 +1,10 @@
 class Docopt < Formula
   desc "C++11 port of docopt"
   homepage ""
-  url "https://github.com/docopt/docopt.cpp/archive/400e6dd8e59196c914dcc2c56caf7dae7efa5eb3.tar.gz"
-  sha256 "bc62e9112639ed88f9444a52676f1497cde9b235097cfe807cf1b2f53318666d"
+  url "https://github.com/docopt/docopt.cpp/archive/05d507da0d153faff381f44968833ebffdc03447.tar.gz"
+  sha256 "3f1a94899db5809cf7191b0e4179ded11d4dd53a811aeac22f26847ccc58ac76"
   license "BSL-1.0"
-  version "0.6.3"
+  version "0.6.4"
 
   depends_on "cmake" => :build
 
