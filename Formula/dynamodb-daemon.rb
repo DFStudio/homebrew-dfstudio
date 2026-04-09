@@ -2,10 +2,10 @@ class DynamodbDaemon < Formula
   desc "Locally-hosted DynamoDB server"
   homepage "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
   #url "https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.tar.gz"
-  url "https://raw.githubusercontent.com/DFStudio/homebrew-dfstudio/artifacts/dynamodb-daemon/dynamodb_local_2.5.4.tar.gz"
-  version "2.5.4"
+  url "https://raw.githubusercontent.com/DFStudio/homebrew-dfstudio/artifacts/dynamodb-daemon/dynamodb_local_3.3.0.tar.gz"
+  version "3.3.0"
   revision 4
-  sha256 "60b1561fa6141642dbd3ad9ab75a6315c94877f6f42e60551125b11ea8a62c97"
+  sha256 "c05dc320f4f9a6f90c6597bc4dc7239ab8200a6df0f280d9cbe4d5775943f898"
   #license ""
 
   depends_on "openjdk@17"
