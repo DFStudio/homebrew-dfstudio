@@ -4,7 +4,7 @@ class DynamodbDaemon < Formula
   #url "https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.tar.gz"
   url "https://raw.githubusercontent.com/DFStudio/homebrew-dfstudio/artifacts/dynamodb-daemon/dynamodb_local_3.3.0.tar.gz"
   version "3.3.0"
-  revision 5
+  revision 8
   sha256 "c05dc320f4f9a6f90c6597bc4dc7239ab8200a6df0f280d9cbe4d5775943f898"
   #license ""
 
@@ -39,7 +39,7 @@ class DynamodbDaemon < Formula
   end
 
   service do
-    run [bin/"dynamodb-local", "-port", "8800", "-dbPath", f.dynamodb_db_path, "-cors", "https://dynamodb-manager.netlify.app", "-optimizeDbBeforeStartup"]
+    run [bin/"dynamodb-local", "-port", "8800", "-dbPath", f.dynamodb_db_path, "-cors", "https://dynamodb-manager.netlify.app"]
     keep_alive true
     log_path f.dynamodb_log_path
     error_log_path f.dynamodb_log_path
